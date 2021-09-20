@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeça {
+    display: flex;
+    background-color: rgb(46, 45, 45);
+    align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px;
+   width: 100%;
+  
+}
+.navegation{
+    display: flex;
+    margin: 20px 10px;
+    padding: 0 5px;
+    
+}
+.nave{
+    margin: 10px;
+}
+a {
+    background-color: khaki;
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+a:hover{
+    opacity:1;
+}
+a:visited, a:hover, align-self: :active{
+    color:inherit;
+}
+.fav{
+color: lawngreen;
+display: flex;
+align-items: center;
+
+
+}
